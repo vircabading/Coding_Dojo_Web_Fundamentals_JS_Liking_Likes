@@ -76,6 +76,10 @@ body {
 
 /*      ---- Flex Direction ---------------------------------------- */
 
+.container {
+    display: flex;
+}
+
 .flex_right {
     display: flex;
     flex-direction: row;
@@ -173,12 +177,12 @@ h3 {
 
 /* //// PADDING AND MARGINS ////////////////////////////////////// */
 
-.pad_10 {
-    padding: 10;
+.pad_1 {
+    padding: 1%;
 }
 
-.margin_10 {
-    margin: 10;
+.margin_1 {
+    margin: 1%;
 }
 
 /*  //// BORDER ////////////////////////////////////////////////// */
