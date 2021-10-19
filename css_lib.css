@@ -45,8 +45,7 @@
 /*  //// NAV BAR ///////////////////////////////////////////////////// */
 
 .nav {                                      /* Navigation bar */
-    background: rgb(2,0,36);                      
-    background: linear-gradient(139deg, rgba(2,0,36,1) 0%, rgba(71,154,170,1) 34%, rgba(9,9,121,1) 93%);
+    background: navy;                      
     border-radius: 10px;
     display: flex;                          /* Nav Bar is a container */
     align-items: center;
@@ -58,6 +57,7 @@ body {
     display: flex;
     width: 100%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .main_container {
@@ -120,7 +120,7 @@ body {
 
 /*  //// Columns ///////////////////////////////////////////////// */
 
-.col, .col_2, .col_3 {
+.col_1 {
     flex: 1;
     margin: 0px 1%;
     padding: 1%;
@@ -128,10 +128,15 @@ body {
 
 .col_2 {
     flex: 2;
+    margin: 0px 1%;
+    padding: 1%;
+
 }
 
 .col_3 {
     flex: 3;
+    margin: 0px 1%;
+    padding: 1%;
 }
 
 /*  //// WIDTH ///////////////////////////////////////////////////// */

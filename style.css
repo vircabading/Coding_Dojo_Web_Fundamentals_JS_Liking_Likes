@@ -2,3 +2,24 @@
     Subj:       
     By:         Virgilio D. Cabading Jr.
     ////////////////////////////////////////////////// */
+    
+/*  //// NAV BAR ///////////////////////////////////// */
+.nav {
+    background-color: black;
+    color: white;
+}
+
+/*  //// YOUR FEED//////////////////////////////////// */
+.your_feed {
+}
+
+/*  //// MAIN FEED /////////////////////////////////// */
+.main_feed {
+    height: 800px;
+}
+
+.card {
+    border-color: black;
+    margin-bottom: 1%;
+}
+
