@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////
-// Subj:   
-// By:      Virgilio D. Cabading Jr.
+// Subj:    Coding Dojo > Web Fundamentals > Javascript > Likes
+// By:      Virgilio D. Cabading Jr.    Created: October 19, 2021
 //////////////////////////////////////////////////
 
 var userFeed = [
@@ -12,7 +12,10 @@ var userFeed = [
     "message" : "Just finished my <a href=''>next comic</a>"},
     {"name" : "Jim",
     "likes" : 9,
-    "message" : "I can't stop listening to the <a href=''>new album.</a>  Who else is liking it?"}
+    "message" : "I can't stop listening to the <a href=''>new album.</a>  Who else is liking it?"},
+    {"name" : "Joe Mama",
+    "likes" : 1337,
+    "message" : "What if I told you, a good user experience can actually make you more money"}
 ];
 
 function addLike(element) {
