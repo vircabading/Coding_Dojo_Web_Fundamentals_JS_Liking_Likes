@@ -118,6 +118,10 @@ body {
     justify-content: center;
 }
 
+.justify_between {
+    justify-content: space-between;
+}
+
 /*  //// Columns ///////////////////////////////////////////////// */
 
 .col_1 {

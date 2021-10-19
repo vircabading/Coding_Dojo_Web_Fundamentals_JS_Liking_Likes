@@ -11,6 +11,7 @@
 
 /*  //// YOUR FEED//////////////////////////////////// */
 .your_feed {
+    margin: 3%;
 }
 
 /*  //// MAIN FEED /////////////////////////////////// */
@@ -23,3 +24,11 @@
     margin-bottom: 1%;
 }
 
+.user_img {
+    width: 80%;
+    height: auto;
+}
+
+.likes_btn {
+    background-color: #ffd966;
+}

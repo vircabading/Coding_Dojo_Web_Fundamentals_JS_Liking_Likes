@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css_lib.css">                  <!-- Link to CSS Library -->
     <link rel="stylesheet" href="style.css">                    <!-- Link to CSS Stylesheet-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>PUT TITLE HERE</title>
+    <title>Likes</title>
 </head>
 
 <!--//// BODY ////////////////////////////////////////-->
@@ -22,14 +22,14 @@
 
         <!-- //// NAV BOX ////////////////////////////-->
         <div class="nav">
-            <h1>
+            <h1 class="pad_1 margin_1">
                 Network
             </h1>
         </div>
         
         <!-- //// YOUR FEED ////////////////////////////-->        
         <div class="container justify_center align_center">
-            <h1>
+            <h1 class="pad_1">
                 Your Feed
             </h1>
         </div>
@@ -39,15 +39,44 @@
 
             <!-- ---- Left Column ------------------------>
             <div class="col_1">
-                <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum consectetur nobis aliquam aspernatur dolores, in esse quaerat voluptate, similique iste porro expedita saepe consequuntur? Corporis quibusdam totam odio commodi?</p>
-                <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum consectetur nobis aliquam aspernatur dolores, in esse quaerat voluptate, similique iste porro expedita saepe consequuntur? Corporis quibusdam totam odio commodi?</p>
+
+                <!-- ---- User Card ---------------------->
+                <div class="card container flex_down align_center">
+                    <img class="user_img" src="images/user.png" alt="user avatar">
+                    <a href="">
+                        Add an Avatar
+                    </a>
+                    <h1>
+                        James Doe
+                    </h1>
+                </div>
             </div>
 
             <!-- ---- Right Column ----------------------->
-            <div class="col_3">
-                <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum consectetur nobis aliquam aspernatur dolores, in esse quaerat voluptate, similique iste porro expedita saepe consequuntur? Corporis quibusdam totam odio commodi?</p>
-                <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum consectetur nobis aliquam aspernatur dolores, in esse quaerat voluptate, similique iste porro expedita saepe consequuntur? Corporis quibusdam totam odio commodi?</p>
-                <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nostrum consectetur nobis aliquam aspernatur dolores, in esse quaerat voluptate, similique iste porro expedita saepe consequuntur? Corporis quibusdam totam odio commodi?</p>
+            <div id="user_feed" class="col_3">
+
+                <!-- ---- Card Feed -->
+                <div class='card container flex_down pad_1'>
+                    <div class='container flex_right justify_between pad_1 margin_1 align_center'>
+                        <h2>
+                            Neil M
+                        </h2>
+                        <div class='container flex_right pad_1 margin_1 align_center justify_space wdt_30'>
+                            <h3>
+                                9 Likes
+                            </h3>
+                            <button class='btn likes_btn'>
+                                Like
+                            </button>
+                        </div>
+                    </div>
+                    <div class='container justify_center align_center'>
+                        <span>
+                            I just set up this new discord bot, let me know what you all think. <a href="">link</a>
+                        </span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
