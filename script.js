@@ -13,7 +13,7 @@ var userFeed = [
     {"name" : "Jim",
     "likes" : 9,
     "message" : "I can't stop listening to the <a href=''>new album.</a>  Who else is liking it?"},
-    {"name" : "Joe Mama",
+    {"name" : "Joe M",
     "likes" : 1337,
     "message" : "What if I told you, a good user experience can actually make you more money"}
 ];
